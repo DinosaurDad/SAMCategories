@@ -14,7 +14,7 @@ let package = Package(
             dependencies: [],
             path: "SAMCategories",
             resources: [
-              .copy('SAMCategories.bundle')
+              .copy("SAMCategories.bundle")
             ]
         )
     ]
