@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "SAMCategories",
+    platforms: [
+      .iOS(.v12)
+    ],
     products: [
         .library(
           name: "SAMCategories",
